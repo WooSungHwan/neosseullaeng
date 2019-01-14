@@ -39,7 +39,6 @@
 		
 		
 		
-		
 		//경매 등록 추이
 		Highcharts.chart('container', {
 
@@ -190,7 +189,18 @@
 			<div class="card-header">
 				<i class="fas fa-chart-area" style="font-size: 2em;"></i><span
 					style="font-size: 2em;">카테고리별 통계</span>
-				<select id="categoryTitle"></select>
+				<div style="width:80%; display:inline;">
+				<select id="categoryTitle" class="form-control" style="float:right; width:150px;">
+					<c:forEach items="${bigList}" var="category">
+						<c:if test="${category == '디지털/가전' }"> 
+							<option value="${category}" selected="selected">${category}</option>						
+						</c:if>
+						<c:if test="${category != '디지털/가전' }"> 
+							<option value="${category}">${category}</option>						
+						</c:if>
+					</c:forEach>
+				</select>
+				</div>
 			</div>
 			<div class="card-body">
 				<div id="container3" class="chart_sh"></div>
@@ -199,6 +209,30 @@
 		</div>
 	  </div>
 	
-		
+		<!-- Button trigger modal -->
+	<button type="button" class="btn btn-primary btn-lg"
+		data-toggle="modal" data-target="#myModal" >모달아 떠랏
+	</button>
+	
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel">계약서</h4>
+				</div>
+				<div class="modal-body">...</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 </div>

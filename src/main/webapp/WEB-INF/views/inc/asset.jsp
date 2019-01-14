@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 
 <script src="/spring/resources/asset/js/jquery-1.12.4.js"></script>
-<script src="/spring/resources/asset/js/bootstrap.js"></script>
+
 
 
 
@@ -19,3 +19,4 @@
 <script src="/spring/resources/asset/js/sb-admin.min.js"></script>
 
 <link rel="stylesheet" href="/spring/resources/asset/css/style.css">
+<script src="/spring/resources/asset/js/bootstrap.js"></script>
