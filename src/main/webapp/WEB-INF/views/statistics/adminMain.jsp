@@ -26,6 +26,17 @@
 	float:left;
 	margin-top:20px;
 }
+.fas{
+	margin-right:5px;
+}
+#pyo{
+		width:700px;
+		height:600px;
+		border:1px solid black;
+		margin:0 auto;
+}
+
+#
 
 #container2:after{
 	clear:both;
@@ -52,8 +63,8 @@
 
 		    data: {
 		        columns: [
-		            [null,'2018-12-13','2018-12-14','2018-12-15','2018-12-16','2018-12-17','2018-12-18','2018-12-19'], // categories
-		            ['등록수',10,20,20,14,16,26,46,64] // first series		            
+		            [null,'2019-01-14','2019-01-15','2019-01-16','2019-01-17','2019-01-18','2019-01-19','2019-01-20'], // categories
+		            ['등록수',24,14,27,29,43,13,25,22] // first series		            
 		        ]
 		    }
 		});
@@ -71,8 +82,8 @@
 
 		    data: {
 		        columns: [
-		            [null,'2018-12-13','2018-12-14','2018-12-15','2018-12-16','2018-12-17','2018-12-18','2018-12-19'], // categories
-		            ['회원수',10,20,20,14,16,26,46,64] // first series
+		            [null,'2019-01-14','2019-01-15','2019-01-16','2019-01-17','2019-01-18','2019-01-19','2019-01-20'], // categories
+		            ['회원수',57,75,24,37,51,64,27] // first series
 		            /* ['2018-12-14', 15],
 		            ['2018-12-15', 17],
 		            ['2018-12-16', 12],
@@ -96,7 +107,7 @@
 
 		    data: {
 		        columns: [
-		            [null, '2018-12-12','2018-12-13','2018-12-14','2018-12-15','2018-12-16','2018-12-17','2018-12-18','2018-12-19'], // categories
+		            [null, '2019-01-14','2019-01-15','2019-01-16','2019-01-17','2019-01-18','2019-01-19','2019-01-20'], // categories
 		            ['등록수',10,20,20,14,16,26,46,64], // first series		            
 		        ]
 		    }
@@ -119,7 +130,7 @@
                   </div>
                   <div class="mr-5">경매 완료</div>
                 </div>
-                <div class="data"><span class="numData">50</span>건</div>
+                <div class="data"><span class="numData">4,451</span>건</div>
               </div>
             </div>
             <div class="col-xl-3 col-sm-6 mb-3">
@@ -130,7 +141,7 @@
                   </div>
                   <div class="mr-5">금일 등록 경매</div>
                 </div>
-                <div class="data"><span class="numData">50</span>건</div>
+                <div class="data"><span class="numData">27</span>건</div>
               </div>
             </div>
             <div class="col-xl-3 col-sm-6 mb-3">
@@ -141,7 +152,7 @@
                   </div>
                   <div class="mr-5">회원수</div>
                 </div>
-               <div class="data"><span class="numData">50</span>건</div>
+               <div class="data"><span class="numData">54,842</span>건</div>
               </div>
             </div>
             <div class="col-xl-3 col-sm-6 mb-3">
@@ -152,7 +163,7 @@
                   </div>
                   <div class="mr-5">금일 가입자</div>
                 </div>
-                <div class="data"><span class="numData">50</span>건</div>
+                <div class="data"><span class="numData">124</span>건</div>
               </div>
             </div>
           </div>
@@ -192,7 +203,7 @@
 				<div style="width:80%; display:inline;">
 				<select id="categoryTitle" class="form-control" style="float:right; width:150px;">
 					<c:forEach items="${bigList}" var="category">
-						<c:if test="${category == '디지털/가전' }"> 
+						<c:if test="${category == '디지털/가전'}"> 
 							<option value="${category}" selected="selected">${category}</option>						
 						</c:if>
 						<c:if test="${category != '디지털/가전' }"> 
@@ -208,6 +219,18 @@
 			 
 		</div>
 	  </div>
+	  <div style="width:780px;margin-left:28px;" class="card_sh">
+		<div class="card mb-3">
+			<div class="card-header">
+				<i class="fas fa-bullhorn" style="font-size: 2em;"></i><span
+					style="font-size: 2em;">신고/환불 통계</span>
+				
+			</div>			
+			<div class="card-body">
+			</div>
+			 
+		</div>
+	  </div>
 	
 		<!-- Button trigger modal -->
 	<button type="button" class="btn btn-primary btn-lg"
@@ -215,18 +238,51 @@
 	</button>
 	
 	<!-- Modal -->
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content">
+	      
+	    </div>
+	    <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<h4 class="modal-title" id="myModalLabel">계약서</h4>
+			<table class="table table-bordered">
+				<tr>
+					<th>경매번호</th>
+					<td><div>200</div>호</td>
+				</tr>
+			</table>
+		</div>
+		<div class="modal-body">
+					
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			<button type="button" class="btn btn-primary">Save changes</button>
+		</div>
+	  </div>
+	</div>
+	<div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
+		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
 						aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
-					<h4 class="modal-title" id="myModalLabel">계약서</h4>
+					<h4>계약서</h4>
 				</div>
-				<div class="modal-body">...</div>
+				<div class="modal-body">
+					<table class="table table-bordered">
+						<tr>
+							<th style="width:100px;">경매번호</th>
+							<td>200 호</td>
+						</tr>
+					</table>
+				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					<button type="button" class="btn btn-primary">Save changes</button>
@@ -234,5 +290,4 @@
 			</div>
 		</div>
 	</div>
-
 </div>

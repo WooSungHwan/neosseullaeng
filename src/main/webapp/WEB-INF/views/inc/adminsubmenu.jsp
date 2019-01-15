@@ -26,7 +26,7 @@
         
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="/spring/adminTest.action" id="pagesDropdown" >
-            <i class="fas fa-chalkboard-teacher"></i>
+            <i class="fas fa-bullhorn"></i>
             <span>신고 관리</span>
           </a>
         </li>
