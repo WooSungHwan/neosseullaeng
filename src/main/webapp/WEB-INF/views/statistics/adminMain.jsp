@@ -35,9 +35,19 @@
 		border:1px solid black;
 		margin:0 auto;
 }
-
-#
-
+.middle_sh{
+	vertical-align: middle; 
+	text-align:center;
+}
+.tx_left{
+	text-align:left;
+}
+.tx_center{
+	text-align:center;
+}
+.tx_right{
+	text-align:right;
+}
 #container2:after{
 	clear:both;
 }
@@ -47,20 +57,15 @@
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
 <script>
 	$(document).ready(function(){
-		
-		
-		
 		//경매 등록 추이
 		Highcharts.chart('container', {
 
 		    chart: {
 		        type: 'column'
 		    },
-
 		    title: {
 		        text: '최근 7일 게시물 등록수'
 		    },
-
 		    data: {
 		        columns: [
 		            [null,'2019-01-14','2019-01-15','2019-01-16','2019-01-17','2019-01-18','2019-01-19','2019-01-20'], // categories
@@ -238,54 +243,67 @@
 	</button>
 	
 	<!-- Modal -->
-	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-	  <div class="modal-dialog modal-lg">
-	    <div class="modal-content">
-	      
-	    </div>
-	    <div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-			</button>
-			<h4 class="modal-title" id="myModalLabel">계약서</h4>
-			<table class="table table-bordered">
-				<tr>
-					<th>경매번호</th>
-					<td><div>200</div>호</td>
-				</tr>
-			</table>
-		</div>
-		<div class="modal-body">
-					
-		</div>
-		<div class="modal-footer">
-			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			<button type="button" class="btn btn-primary">Save changes</button>
-		</div>
-	  </div>
-	</div>
+	
 	<div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
-				<div class="modal-header">
+				<div class="modal-header" style="background:#212529;">
 					<button type="button" class="close" data-dismiss="modal"
 						aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
-					<h4>계약서</h4>
+					<div><h4 style="color:white;">입찰표</h4></div>
 				</div>
 				<div class="modal-body">
+					<c:if test="${not empty bdto}">
 					<table class="table table-bordered">
 						<tr>
-							<th style="width:100px;">경매번호</th>
-							<td>200 호</td>
+							<th style="width:100px;text-align:center;">경매번호</th>
+							<td class="tx_right" colspan="5"><span style="margin-right:20px;">${bdto.seq}</span> 호</td>
+						</tr>
+						<tr>
+							<th rowspan="6" style="text-align:center; vertical-align: middle;">입찰자</th>
+							<th rowspan="3" style="width:100px;text-align:center; vertical-align: middle;">본인</th>
+							<th style="width:100px;" class="tx_center">성명</th>
+							<td colspan="3">${bdto.buyerName}</td>
+						</tr>
+						<tr>
+							<th class="tx_center">사용자번호</th>
+							<td>${bdto.buyerSeq}</td>
+							<th class="tx_center">전화번호</th>
+							<td>${bdto.buyerTel}</td>
+						</tr>
+						<tr>
+							<th class="tx_center">주소</th>
+							<td colspan="3">${bdto.buyerAddress}</td>
+						</tr>
+						<tr>
+							<th rowspan="3" style="width:100px;text-align:center; vertical-align: middle;">대리인</th>
+							<th class="tx_center">성명</th>
+							<td>${bdto.sellerName}</td>
+							<th>본인과의 관계</th>
+							<td>남남</td>
+						</tr>
+						<tr>
+							<th class="tx_center" style="width:100px;">사용자번호</th>
+							<td>${bdto.sellerSeq}</td>
+							<th style="width:110px;" class="tx_center" >전화번호</th>
+							<td>${bdto.sellerTel}</td>
+						</tr>
+						<tr>
+							<th class="tx_center">주소</th>
+							<td colspan="3">${bdto.sellerAddress }</td>
+						</tr>
+						<tr>
+							<th class="tx_center">낙찰가격</th>
+							<td colspan="5" style="font-size:2em; text-align:right;">${bdto.price}원</td>
 						</tr>
 					</table>
+					</c:if>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-primary">Save changes</button>
 				</div>
 			</div>
 		</div>

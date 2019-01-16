@@ -22,12 +22,12 @@ public class StatisticsController {
 	}
 	
 	@RequestMapping(value = "/adminMain.action", method = { RequestMethod.GET })
-	public String adminMain(HttpServletRequest req) {
+	public String adminMain(HttpServletRequest req,String seq) {
 		List<String> bigList = service.getBigCategory();
+		BidDTO dto = service.getBidData(seq);
 		
 		
-		
-		
+		req.setAttribute("bdto",dto);
 		req.setAttribute("bigList", bigList);//카테고리 종류
 		return "admin.statistics.adminMain";
 	}

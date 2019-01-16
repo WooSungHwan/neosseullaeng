@@ -7,7 +7,7 @@
 	
 	<!-- 자주 사용하는 타입의 별칭 -->	
 	<typeAliases>
-		<!-- <typeAlias type="com.test.spring.MyBatisDTO" alias="mdto"/> -->
+		<typeAlias type="com.auction.statistics.BidDTO" alias="bdto"/>
 	</typeAliases>
 	
 </configuration>

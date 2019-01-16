@@ -15,6 +15,10 @@ public class AdminDAO {
 	public List<String> getBigCategory() {
 		return template.selectList("admin.getBigCategory");
 	}
+
+	public BidDTO getBidData(String seq) {
+		return template.selectOne("admin.getBidData",seq);
+	}
 	
 	
 	

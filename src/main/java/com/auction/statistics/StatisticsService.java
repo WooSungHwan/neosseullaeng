@@ -15,4 +15,9 @@ public class StatisticsService implements IStatistics{
 	public List<String> getBigCategory() {
 		return adminDao.getBigCategory();
 	}
+
+	@Override
+	public BidDTO getBidData(String seq) {
+		return adminDao.getBidData(seq);
+	}
 }

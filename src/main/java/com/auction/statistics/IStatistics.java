@@ -6,4 +6,6 @@ public interface IStatistics {
 
 	List<String> getBigCategory();
 
+	BidDTO getBidData(String seq);
+
 }
