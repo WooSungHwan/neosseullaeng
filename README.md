@@ -83,6 +83,9 @@
 ## Exerd 테이블 명세
 <img width="1000" src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/%EB%84%88%EC%93%B8%EB%9E%ADERD.png">
 
+## Flow Chart
+<img src="https://github.com/WooSungHwan/neosseullaeng/blob/master/FlowChart.png">
+
 ## 구동 화면
 * 너쓸랭 메인화면<br><br>
 <img src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/%EB%84%88%EC%93%B8%EB%9E%AD.png">
