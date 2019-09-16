@@ -5,7 +5,7 @@
 <b>주제 :  경매방식의 중고 거래 홈페이지 ‘너_쓸랭’</b><br>
 <b>개발 : Eclipse Jee 2018-12, SQL Developer, eXERD</b><br>
 <b>사용 언어 : JAVA (JDK 1.8), Oracle SQL, HTML5, CSS3, JavaScript, JSP/Servlet</b><br>
-<b>사용 기술 : JDBC, Spring Framwork, DI, AOP, Tiles, PlipClub JS, cafe24 SMS Hosting, AP</b><br>
+<b>사용 기술 : JDBC, Spring Framwork, DI, AOP, Tiles, cafe24 SMS Hosting</b><br>
 <b>디자인 프레임워크 : Bootstrap</b><br>
 
 # 프로젝트 상세내용
