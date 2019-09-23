@@ -81,23 +81,23 @@
 </pre>
 
 ## Exerd 테이블 명세
-<img width="1000" src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/%EB%84%88%EC%93%B8%EB%9E%ADERD.png">
+<img width="1000" src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/%EB%84%88%EC%93%B8%EB%9E%ADERD.png"><br>
 
 ## Flow Chart
-<img src="https://github.com/WooSungHwan/neosseullaeng/blob/master/FlowChart.png">
+<img src="https://github.com/WooSungHwan/neosseullaeng/blob/master/FlowChart.png"><br>
 
 ## 구동 화면
 * 너쓸랭 메인화면<br><br>
-<img src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/%EB%84%88%EC%93%B8%EB%9E%AD.png">
+<img src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/%EB%84%88%EC%93%B8%EB%9E%AD.png"><br>
 * 구매자 구매 화면<br><br>
-<img src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/%EA%B5%AC%EB%A7%A4%EC%9E%90%20%ED%99%94%EB%A9%B4.png">
+<img src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/%EA%B5%AC%EB%A7%A4%EC%9E%90%20%ED%99%94%EB%A9%B4.png"><br>
 * 판매자 물품등록 화면<br><br>
-<img src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/%ED%8C%90%EB%A7%A4%EC%9E%90%20%ED%99%94%EB%A9%B4.png">
+<img src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/%ED%8C%90%EB%A7%A4%EC%9E%90%20%ED%99%94%EB%A9%B4.png"><br>
 * 낙찰 물품 확인 화면<br><br>
-<img src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/WinningBidPay.PNG">
+<img src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/WinningBidPay.PNG"><br>
 * 관리자 통계화면<br><br>
-<img src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90_%ED%86%B5%EA%B3%84.png">
+<img src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/%EA%B4%80%EB%A6%AC%EC%9E%90_%ED%86%B5%EA%B3%84.png"><br>
 * 배송 조회 화면.<br><br>
-<img src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/MyPage_%EA%B5%AC%EB%A7%A4%EB%82%B4%EC%97%AD_%EB%B0%B0%EC%86%A1%EC%A1%B0%ED%9A%8C.PNG">
+<img src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/MyPage_%EA%B5%AC%EB%A7%A4%EB%82%B4%EC%97%AD_%EB%B0%B0%EC%86%A1%EC%A1%B0%ED%9A%8C.PNG"><br>
 * 경매 상황 알림 SMS 문자<br><br>
-<img src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/%EA%B2%BD%EB%A7%A4%EC%83%81%ED%99%A9%20%EC%95%8C%EB%A6%BC%20SMS.PNG">
+<img src="https://github.com/WooSungHwan/Auction/blob/master/%EB%84%88%EC%93%B8%EB%9E%AD%20%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/%EA%B2%BD%EB%A7%A4%EC%83%81%ED%99%A9%20%EC%95%8C%EB%A6%BC%20SMS.PNG"><br>
